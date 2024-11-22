@@ -30,5 +30,6 @@ jobs:
       # Run CNN Ship Filter Inference
       - name: Run tests
         run: |
-          mkdir -p /home/runner/work/classification-pytorch/classification-pytorch/plots
-          python3 main.py --mode test --data_path ./data/test/ --model_path ./models/cnn_resnet18_freeze_backbone_False.pth
+          mkdir -p /home/runner/work/Session_4/Session_4/plots
+          python3 src/main.py --mode test --data_path ./data/test/ --model_path ./models/cnn_resnet18_freeze_backbone_False.pth
+
